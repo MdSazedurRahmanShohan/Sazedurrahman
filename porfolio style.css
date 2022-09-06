@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Uchen', serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+[class*="col-"]{
+float: left;
+padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.nav-bar{
+    background-color: aqua;
+    padding: 1% 7%;
+    text-align: center;
+}
+.nav-bar::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.nav-bar h1{
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.navbar-menu a{
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 7px;
+    padding: 10px;
+    }
+    .navbar-menu a:hover{
+        background-color: grey;
+    }
